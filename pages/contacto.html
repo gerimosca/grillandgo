@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill & Go | Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="link-logo" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+        <a class="name-compania" href="../index.html">GRILL &amp; GO</a>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <a href="../pages/reservas.html"><li>Reservas</li></a>
+                    <a href="../pages/nuestra-carta.html"><li>Nuestra Carta</li></a>
+                    <a href="../pages/pedidos.html"><li>Pedidos</li></a>
+                    <a href="../pages/contacto.html"><li>Contacto</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="formgrid">
+                <h2 class="contacto-1">Contacto</h2>
+                <form class="enviar-form" action="./formulario-enviado.html" method="get">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                        <input type="surname" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu email">
+                    </div>
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected>Balmes</option>
+                            <option value="2">Barceloneta</option>
+                            <option value="3">Diagonal</option>
+                            <option value="4">Tibidabo</option>
+                        </select>
+                        <label for="floatingSelect">Restaurante</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="balmes"><img src="../img/restaurante1.jpg" alt="restaurante1">Restaurante Balmes</div>
+            <div class="diagonal"><img src="../img/restaurante2.jpg" alt="restaurante2">Restaurante Diagonal</div>
+            <div class="barceloneta"><img src="../img/restaurante3.jpg" alt="restaurante3">Restaurante Barceloneta</div>
+            <div class="tibidabo"><img src="../img/restaurante4.jpg" alt="restaurante4">Restaurante Av. Tibidabo</div>
+        </div>
+    </main>
+    <footer>
+        <div class="contacto-redes">
+            <a target="_blank" href="https://www.facebook.com"><img class="facebook-logo" src="../img/facebook.png" alt="facebook-logo"></a>
+            <a target="_blank" href="https://www.instagram.com"><img class="instagram-logo" src="../img/instagram.png" alt="instagram-logo"></a>
+            <a target="_blank" href="https://www.whatsapp.com"><img class="whatsapp-logo" src="../img/whatsapp.png" alt="whatsapp-logo"></a>
+            <p class="copyright">Derechos reservados &reg; | Grill &amp; Go </p>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
