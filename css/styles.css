@@ -619,3 +619,29 @@ button{
     width: 350px;
 }
 }
+
+
+/* PAGINA NUESTRA CARTA */
+/* PAGINA NUESTRA CARTA */
+/* PAGINA NUESTRA CARTA */
+
+
+@media screen and (max-width: 768px) {   
+
+      
+    .carousel-inner img{
+        width: 550px;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {   
+
+      
+    .carousel-inner img{
+        width: 350px;
+        height: 250px;
+    }
+
+}
