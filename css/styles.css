@@ -647,58 +647,76 @@ button{
     font-size: 25px;
     text-align: center;
     width: 450px;
-    margin: 0px;
     margin-top: 20px;
+    margin-left: 0px;
 }
 
 .principal-1{
     height: 400px;
+    width: 450px;
+    margin: 10px auto;
+    justify-content: center;
 }
 .principal-2{
     height: 400px;
+    width: 450px;
+    margin: 10px auto;
+    justify-content: center;
 }
 
 .principal-2-1{
     height: 250px;
+    width: 400px;
+    margin: 10px auto;
+    justify-content: center;
 }
 
 .principal-1 img{
     width: 450px;
     height: 230px;
-    margin: 10px 10px;
+    margin: 10px auto;
+    justify-content: center;
 }
 
 .principal-2 img{
     width: 350px;
-    height: 420px;
-    margin: 5px 5px;
+    height: 450px;
+    margin: 5px auto;
+    justify-content: center;
 }
 
 .img-reserva-main{
-    margin-top: 240px;
+    margin-top: 250px;
+    justify-content: center;
+
 }
 
 .img-reserva-main a{
-    margin: 0px 0px;
+    margin: 10px auto;
+    justify-content: center;
     border-width: 3px;
     border-radius: 20px;
 }
 
 .titulo-reserva-main{
     font-size: 20px;
+    margin-top: 30px;
 }
 
 
-.principal-2-1 h2,
-.principal-2-1 .text1{
-    width: 450px;
+.principal-2-1 h2{
+    width: 400px;
     font-size: 25px;
-    margin: 10px;
+    margin: 10px auto;
+    justify-content: center;
 }
 
 .principal-2-1 .text1{
     font-size: 10px;
-    margin-top: 0px;
+    width: 400px;
+    margin: 0px auto;
+    justify-content: center;
+
 }
 
 .contenedor-principal{
@@ -740,3 +758,120 @@ button{
     align-items: center;
 }
 }
+
+@media screen and (max-width: 320px) { 
+
+    .titulo-container{
+        font-size: 25px;
+        text-align: center;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .principal-1{
+        height: 400px;
+        width: 300px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    .principal-2{
+        height: 10px;
+        width: 300px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    
+    .principal-2-1{
+        height: 250px;
+        width: 300px;
+        margin-top: 20px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    
+    .principal-1 img{
+        width: 300px;
+        height: 160px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    
+    .principal-2 img{
+        width: 300px;
+        height: 420px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    
+    .img-reserva-main{
+        margin-top: 300px;
+        justify-content: center;
+    }
+    
+    .img-reserva-main a{
+        margin: 10px auto;
+        justify-content: center;
+        border-width: 3px;
+        border-radius: 20px;
+    }
+    
+    .titulo-reserva-main{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    
+    
+    .principal-2-1 h2{
+        width: 300px;
+        font-size: 25px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    
+    .principal-2-1 .text1{
+        font-size: 10px;
+        width: 300px;
+        margin: 0px auto;
+        justify-content: center;
+    }
+    
+    .contenedor-principal{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "principal-1"
+        "principal-2"
+        "img-reserva-main"
+        "iframe-maps";
+    }
+    
+    
+    .principal-1{
+        grid-area: principal-1;
+    }
+    
+    .principal-2{
+        grid-area: principal-2;
+    }
+    
+    .img-reserva-main{
+        grid-area: img-reserva-main;
+    }
+    
+    .iframe-maps{
+        grid-area: iframe-maps;
+    }
+    
+    
+    .principal-1,
+    .principal-2,
+    .img-reserva-main,
+    .iframe-maps{
+        display: grid;
+        place-items: center;
+        text-align: center;
+        align-items: center;
+    }
+    }
