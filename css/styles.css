@@ -846,7 +846,12 @@ button{
         width: 300px;
         height: 350px;
     }
-    
+
+    ul a{
+        text-decoration: none;
+        margin: auto;
+    }
+  
     .contenedor-principal{
         display: grid;
         grid-template-columns: 1fr;
