@@ -651,10 +651,21 @@ button{
     margin-top: 20px;
 }
 
+.principal-1{
+    height: 400px;
+}
+.principal-2{
+    height: 400px;
+}
+
+.principal-2-1{
+    height: 250px;
+}
+
 .principal-1 img{
-    width: 460px;
+    width: 450px;
     height: 230px;
-    margin: 5px 5px;
+    margin: 10px 10px;
 }
 
 .principal-2 img{
@@ -664,7 +675,11 @@ button{
 }
 
 .img-reserva-main{
-    margin: 0px auto;
+    margin-top: 240px;
+}
+
+.img-reserva-main a{
+    margin: 0px 0px;
     border-width: 3px;
     border-radius: 20px;
 }
@@ -673,9 +688,6 @@ button{
     font-size: 20px;
 }
 
-.principal-2-1{
-    margin-top: 20px;
-}
 
 .principal-2-1 h2,
 .principal-2-1 .text1{
@@ -698,6 +710,7 @@ button{
     "principal-2"
     "img-reserva-main"
     "iframe-maps";
+}
 
 
 .principal-1{
@@ -725,6 +738,5 @@ button{
     place-items: center;
     text-align: center;
     align-items: center;
-}
 }
 }
