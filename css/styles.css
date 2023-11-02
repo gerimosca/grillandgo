@@ -101,13 +101,10 @@ footer{
 /* INDEX */
 /* INDEX */
 
-.main-img{
-    background-color: rgb(0, 0, 0);
-}
-
-.main-img .principal-1{
+.principal-1{
     display: flex;
     align-items: center;
+    background-color: rgb(0, 0, 0);
 }
 
 .principal-1 img{
@@ -130,11 +127,7 @@ h1{
 
 /* INDEX MAIN-IMG2 */
 
-.main-img2{
-    background-color: rgb(0, 0, 0);
-}
-
-.main-img2 .principal-2{
+.principal-2{
     display: flex;
     align-items: center;
 }
@@ -171,13 +164,10 @@ h2{
 
 /* INDEX LINK-RESERVA */
 
-.link-reserva{
-    background-color: rgb(0, 0, 0);
-    margin: auto auto
-}
+
 
 .img-reserva-main {
-    margin: 75px 100px;
+    margin: auto 75px;
     border-style: solid;
     border-width: 5px;
     border-color: rgb(237, 217, 0);
@@ -663,22 +653,28 @@ button{
 
 .principal-1 img{
     width: 460px;
-    height: 250px;
+    height: 230px;
+    margin: 5px 5px;
 }
 
 .principal-2 img{
     width: 350px;
     height: 420px;
-    margin: 0px;
+    margin: 5px 5px;
 }
 
-.link-reserva{
-    width: 500px;
-    margin: 0px;
+.img-reserva-main{
+    margin: 0px auto;
+    border-width: 3px;
+    border-radius: 20px;
 }
 
 .titulo-reserva-main{
     font-size: 20px;
+}
+
+.principal-2-1{
+    margin-top: 20px;
 }
 
 .principal-2-1 h2,
