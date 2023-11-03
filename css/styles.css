@@ -17,6 +17,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 0px auto;
 }
 
 body{
@@ -41,7 +42,7 @@ body{
 ul a{
     text-decoration: none;
     margin: auto;
-    margin-right: 90px;
+    margin-right: 50px;
 
 }
 
@@ -462,6 +463,7 @@ button{
     display: grid;
     place-items: center;
     text-align: center;
+    width: 100%;
 }
 
 .text-pedido{
@@ -469,11 +471,17 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 450px;
+    width: 475px;
 }
 
 .titulo-pedido{
     color: rgb(207, 185, 15);;
+}
+
+.hamburguesa h4{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* PAGINA FORMULARIO ENVIADO */
@@ -490,6 +498,124 @@ button{
 /* PAGINA PEDIDO RESPONSIVE */
 /* PAGINA PEDIDO RESPONSIVE */
 
+@media screen and (max-width: 1680px) {   
+
+    .contenedor-pedidos{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "hamburguesa1   hamburguesa2    hamburguesa3"
+        "hamburguesa4   hamburguesa5    hamburguesa6"
+        "hamburguesa7   hamburguesa8    hamburguesa9";
+    }
+    
+    .contenedor-pedidos img{
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 5px;
+
+    }
+    
+    .mas-pedidos{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    
+    .name-compania{
+        font-size: 30px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    .link-logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu li{
+        font-size: 25px;
+        margin: 0px 10px;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+    }
+
+    ul a{
+        margin: 10px auto;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {   
+
+    .contenedor-pedidos{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "hamburguesa1   hamburguesa2    hamburguesa3"
+        "hamburguesa4   hamburguesa5    hamburguesa6"
+        "hamburguesa7   hamburguesa8    hamburguesa9";
+    }
+    
+    .contenedor-pedidos img{
+        width: 330px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 5px;
+
+    }
+    
+    .mas-pedidos{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    
+    .name-compania{
+        font-size: 30px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    .link-logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu li{
+        font-size: 22px;
+        margin: 0px 10px;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+    }
+
+    ul a{
+        margin: 10px auto;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 330px;
+        font-size: 18px;
+    }
+
+}
+
 
 @media screen and (max-width: 1024px) {   
 
@@ -503,9 +629,11 @@ button{
     }
     
     .contenedor-pedidos img{
-        width: 450px;
-        height: 300px;
+        width: 300px;
+        height: 180px;
         border-radius: 10px;
+        margin: 5px;
+
     }
     
     .mas-pedidos{
@@ -514,16 +642,10 @@ button{
         font-size: 30px;
     }
     
-    .text-pedido{
-        color: white;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 450px;
-    }
-
     .name-compania{
         font-size: 30px;
+        width: 150px;
+        margin-left: 10px;
     }
 
     .link-logo img{
@@ -531,8 +653,87 @@ button{
         height: 50px;
     }
 
+    .menu li{
+        font-size: 20px;
+        margin: 0px 10px;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+    }
+
+    ul a{
+        margin: 10px auto;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        font-size: 14px;
+    }
+
 }
 
+@media screen and (max-width: 880px) {   
+
+    .contenedor-pedidos{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "hamburguesa1   hamburguesa2    hamburguesa3"
+        "hamburguesa4   hamburguesa5    hamburguesa6"
+        "hamburguesa7   hamburguesa8    hamburguesa9";
+    }
+    
+    .contenedor-pedidos img{
+        width: 250px;
+        height: 180px;
+        border-radius: 10px;
+        margin: 5px;
+
+    }
+    
+    .mas-pedidos{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    
+    .name-compania{
+        font-size: 30px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    .link-logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu li{
+        font-size: 20px;
+        margin: 0px 10px;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+    }
+
+    ul a{
+        margin: 10px auto;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 250px;
+        font-size: 14px;
+    }
+
+}
 
 
 @media screen and (max-width: 768px) {   
@@ -549,8 +750,8 @@ button{
     }
     
     .contenedor-pedidos img{
-        width: 350px;
-        height: 200px;
+        width: 320px;
+        height: 210px;
         border-radius: 10px;
     }
     
@@ -558,6 +759,221 @@ button{
         margin-top: 20px;
         margin-bottom: 30px;
         font-size: 30px;
+        margin: 5px;
+    }
+    
+    .name-compania{
+        font-size: 30px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    ul a{
+        margin: 10px auto;
+    }
+
+    .menu li{
+        display: block;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 330px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+    
+    .contenedor-pedidos img{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .mas-pedidos{
+        margin: 5px;
+    }
+
+    .menu li{
+        display: block;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .mas-pedidos{
+        margin: 5px;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    
+    .contenedor-pedidos img{
+        width: 290px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .menu li{
+        display: block;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .mas-pedidos{
+        margin: 5px;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 290px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .contenedor-pedidos{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "hamburguesa1"
+        "hamburguesa2"
+        "hamburguesa3"
+        "hamburguesa4"
+        "hamburguesa5"
+        "hamburguesa6"
+        "hamburguesa7"
+        "hamburguesa8"
+        "hamburguesa9";
+    }
+    
+    .contenedor-pedidos img{
+        width: 480px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .menu li{
+        display: block;
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .mas-pedidos{
+        margin: 5px;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 480px;
+        font-size: 14px;
+    }
+}
+    
+
+@media screen and (max-width: 480px) {   
+
+    .contenedor-pedidos{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "hamburguesa1"
+        "hamburguesa2"
+        "hamburguesa3"
+        "hamburguesa4"
+        "hamburguesa5"
+        "hamburguesa6"
+        "hamburguesa7"
+        "hamburguesa8"
+        "hamburguesa9";
+    }
+
+    .contenedor-pedidos img{
+        width: 320px;
+        height: 220px;
+        border-radius: 10px;
+    }
+
+    .mas-pedidos{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    .text-pedido{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 320px;
+        font-size: 12px;
+    }
+
+    .name-compania{
+        font-size: 30px;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+
+    .menu li{
+        display: block;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {   
+
+    .contenedor-pedidos{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "hamburguesa1"
+        "hamburguesa2"
+        "hamburguesa3"
+        "hamburguesa4"
+        "hamburguesa5"
+        "hamburguesa6"
+        "hamburguesa7"
+        "hamburguesa8"
+        "hamburguesa9";
+    }
+    
+    .contenedor-pedidos img{
+        width: 95%;
+        height: 200px;
+        border-radius: 10px;
+    }
+    
+    .mas-pedidos{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        margin: 5px;
     }
     
     .text-pedido{
@@ -565,55 +981,26 @@ button{
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 350px;
+        width: 300px;
     }
 
+    .name-compania{
+        font-size: 30px;
+        width: 150px;
+        margin-left: 10px;
+
+    }
+
+    .menu li{
+        display: block;
+        font-size: 15px;
+        margin-right: 20px;
+    }
 }
 
-
-
-@media screen and (max-width: 480px) {   
-
-.contenedor-pedidos{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "hamburguesa1"
-    "hamburguesa2"
-    "hamburguesa3"
-    "hamburguesa4"
-    "hamburguesa5"
-    "hamburguesa6"
-    "hamburguesa7"
-    "hamburguesa8"
-    "hamburguesa9";
-}
-
-.contenedor-pedidos img{
-    width: 350px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-.mas-pedidos{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 30px;
-}
-
-.text-pedido{
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 350px;
-}
-}
-
-
-/* PAGINA NUESTRA CARTA */
-/* PAGINA NUESTRA CARTA */
-/* PAGINA NUESTRA CARTA */
+/* PAGINA NUESTRA CARTA RESPONSIVE*/
+/* PAGINA NUESTRA CARTA RESPONSIVE*/
+/* PAGINA NUESTRA CARTA RESPONSIVE*/
 
 
 @media screen and (max-width: 768px) {   
@@ -636,226 +1023,178 @@ button{
 
 }
 
+@media screen and (max-width: 320px) {   
+
+      
+    .carousel-inner img{
+        width: 300px;
+        height: 200px;
+    }
+
+
+
+}
+
+
 /* PAGINA INDEX RESPONSIVE */
 /* PAGINA INDEX RESPONSIVE */
 /* PAGINA INDEX RESPONSIVE */
 
 
-@media screen and (max-width: 480px) { 
 
-.titulo-container{
-    font-size: 25px;
-    text-align: center;
-    width: 450px;
-    margin-top: 20px;
-    margin-left: 0px;
-}
+@media screen and (max-width: 480px) {
 
-.principal-1{
-    height: 400px;
-    width: 450px;
-    margin: 10px auto;
-    justify-content: center;
-}
-.principal-2{
-    height: 400px;
-    width: 450px;
-    margin: 10px auto;
-    justify-content: center;
-}
-
-.principal-2-1{
-    height: 250px;
-    width: 400px;
-    margin: 10px auto;
-    justify-content: center;
-}
-
-.principal-1 img{
-    width: 450px;
-    height: 230px;
-    margin: 10px auto;
-    justify-content: center;
-}
-
-.principal-2 img{
-    width: 350px;
-    height: 450px;
-    margin: 5px auto;
-    justify-content: center;
-}
-
-.img-reserva-main{
-    margin-top: 250px;
-    justify-content: center;
-
-}
-
-.img-reserva-main a{
-    margin: 10px auto;
-    justify-content: center;
-    border-width: 3px;
-    border-radius: 20px;
-}
-
-.titulo-reserva-main{
-    font-size: 20px;
-    margin-top: 30px;
-}
+    .contenedor-principal{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.6fr 0.4fr 0.6fr;
+        grid-template-areas: 
+        "principal-1"
+        "principal-2"
+        "img-reserva-main"
+        "iframe-maps";
+    }
 
 
-.principal-2-1 h2{
-    width: 400px;
-    font-size: 25px;
-    margin: 10px auto;
-    justify-content: center;
-}
+    .principal-1{
+        grid-area: principal-1;
+    }
 
-.principal-2-1 .text1{
-    font-size: 10px;
-    width: 400px;
-    margin: 0px auto;
-    justify-content: center;
+    .principal-2{
+        grid-area: principal-2;
+    }
 
-}
+    .img-reserva-main{
+        grid-area: img-reserva-main;
+    }
 
-.contenedor-principal{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "principal-1"
-    "principal-2"
-    "img-reserva-main"
-    "iframe-maps";
-}
+    .iframe-maps{
+        grid-area: iframe-maps;
+    }
 
 
-.principal-1{
-    grid-area: principal-1;
-}
+    .principal-1,
+    .principal-2,
+    .img-reserva-main,
+    .iframe-maps{
+        display: grid;
+        place-items: center;
+        text-align: center;
+        align-items: center;
+    }
 
-.principal-2{
-    grid-area: principal-2;
-}
-
-.img-reserva-main{
-    grid-area: img-reserva-main;
-}
-
-.iframe-maps{
-    grid-area: iframe-maps;
-}
-
-
-.principal-1,
-.principal-2,
-.img-reserva-main,
-.iframe-maps{
-    display: grid;
-    place-items: center;
-    text-align: center;
-    align-items: center;
-}
-}
-
-@media screen and (max-width: 320px) { 
+    .iframe-maps{
+        width: 300px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }
 
     .titulo-container{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         width: 300px;
         margin-top: 20px;
-        margin-left: 0px;
     }
-    
+
     .principal-1{
-        height: 450px;
+        height: 400px;
         width: 300px;
         margin: 10px auto;
         justify-content: center;
     }
 
     .principal-2{
-        height: 800px;
+        height: 400px;
         width: 300px;
         margin: 10px auto;
         justify-content: center;
-        margin-bottom: 0px;
     }
-    
+
     .principal-2-1{
-        height: 350px;
+        height: 250px;
         width: 300px;
-        margin-top: 40px;
-        margin: 10px auto;
+        margin: 10px;
         justify-content: center;
     }
-    
+
     .principal-1 img{
         width: 300px;
-        height: 160px;
-        margin: 10px auto;
+        height: 150px;
+        margin: 10px;
         justify-content: center;
-        margin-bottom: 0px;
     }
-    
+
     .principal-2 img{
         width: 300px;
-        height: 420px;
-        margin: 10px auto;
+        height: 450px;
+        margin: 5px;
         justify-content: center;
-        margin-bottom: 0px;
     }
 
     .img-reserva-main{
-        margin: 15px;
-        padding: 5px;
-        height: 320px;
+        margin-top: 420px;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: center;
+
     }
-    
-    .img-reserva-main a{
+
+    .iframe-maps{
         margin: 10px auto;
-        justify-content: center;
-        border-width: 3px;
-        border-radius: 20px;
-    }
-    
-    .titulo-reserva-main{
-        font-size: 20px;
-        margin: 1px
-    }
-    
-    
-    .principal-2-1 h2{
-        width: 280px;
-        font-size: 25px;
-        margin: 10px 10px;
-        justify-content: center;
-    }
-    
-    .principal-2-1 .text1{
-        font-size: 10px;
-        width: 280px;
-        margin: 10px 10px;
         justify-content: center;
     }
 
-    iframe{
-        margin: 10px 10px;
+    .img-reserva-main a{
+        margin: 10px;
+        border-width: 3px;
+        border-radius: 20px;
+    }
+
+    .titulo-reserva-main{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+
+    .principal-2-1 h2{
         width: 300px;
-        height: 350px;
+        font-size: 25px;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .principal-2-1 .text1{
+        font-size: 10px;
+        width: 300px;
+        margin: 5px;
+        justify-content: center;
+
+    }
+
+    iframe{
+        margin: 20px auto;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
     }
 
     ul a{
         text-decoration: none;
         margin: auto;
     }
-  
+
+
+}
+
+@media screen and (max-width: 320px) {
+
     .contenedor-principal{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 0.6fr 0.4fr 0.5fr;
+        grid-template-rows: 0.5fr 0.6fr 0.4fr 0.6fr;
         grid-template-areas: 
         "principal-1"
         "principal-2"
@@ -888,4 +1227,95 @@ button{
         text-align: center;
         align-items: center;
     }
+
+    .titulo-container{
+        font-size: 25px;
+        text-align: center;
+        width: 300px;
+        margin-top: 20px;
     }
+    
+    .principal-1{
+        height: 450px;
+        width: 300px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+
+    .principal-2{
+        height: 800px;
+        width: 300px;
+        margin: 10px;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    
+    .principal-2-1{
+        height: 350px;
+        width: 300px;
+        margin-top: 40px;
+        margin: 10px;
+        justify-content: center;
+    }
+    
+    .principal-1 img{
+        width: 300px;
+        height: 160px;
+        margin: 10px;
+        justify-content: center;
+
+    }
+    
+    .principal-2 img{
+        width: 300px;
+        height: 420px;
+        margin: 10px;
+        justify-content: center;
+
+    }
+
+    .img-reserva-main{
+        margin: 10px;
+        height: 300px;
+    }
+    
+    .img-reserva-main a{
+        margin: 10px auto;
+        justify-content: center;
+        border-width: 3px;
+        border-radius: 20px;
+    }
+    
+    .titulo-reserva-main{
+        font-size: 20px;
+        margin: 1px
+    }
+    
+    
+    .principal-2-1 h2{
+        width: 280px;
+        font-size: 25px;
+        margin: 10px 10px;
+        justify-content: center;
+    }
+    
+    .principal-2-1 .text1{
+        font-size: 10px;
+        width: 280px;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .iframe-maps{
+        margin: 5px;
+        width: 300px;
+        height: 300px;
+    }
+
+    ul a{
+        text-decoration: none;
+        margin: auto;
+    }
+  
+
+}
