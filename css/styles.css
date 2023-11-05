@@ -1791,3 +1791,454 @@ button{
 
 }
 
+
+/* PAGINA RESERVAS RESPONSIVE*/
+/* PAGINA RESERVAS RESPONSIVE*/
+/* PAGINA RESERVAS RESPONSIVE*/
+
+@media screen and (max-width: 1300px){
+
+    .contenedor-reservas{
+        display: grid;
+        grid-template-columns: 0.6fr 0.7fr 0.7fr;
+        grid-template-rows: 1fr 0.5fr;
+        grid-template-areas: 
+        "formulario hambur1 hambur2"
+        "formulario hambur3 hambur4";
+    }
+
+
+    .enviar-form {
+        margin: 10px 20px;
+    }
+
+    .intro-form p{
+        display: none;
+    }
+
+    .reservas-1{
+        margin: 20px auto;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .hambur1 img{
+        max-width: 100%;
+        height: 350px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .hambur2 img{
+        max-width: 100%;
+        height: 350px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur3 img{
+        max-width: 100%;
+        height: 350px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur4 img{
+        max-width: 100%;
+        height: 375px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hambur1,
+    .hambur2,
+    .hambur3,
+    .hambur4{
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+@media screen and (max-width: 1100px){
+
+    .contenedor-reservas{
+        display: grid;
+        grid-template-columns: 0.6fr 0.7fr 0.7fr;
+        grid-template-rows: 1fr 0.5fr;
+        grid-template-areas: 
+        "formulario hambur1 hambur2"
+        "formulario hambur3 hambur4";
+    }
+
+
+    .enviar-form {
+        margin: 10px 20px;
+    }
+
+    .intro-form p{
+        display: none;
+    }
+
+    .reservas-1{
+        margin: 20px auto;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .hambur1 img{
+        max-width: 100%;
+        height: 300px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .hambur2 img{
+        max-width: 100%;
+        height: 300px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur3 img{
+        max-width: 100%;
+        height: 300px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur4 img{
+        max-width: 100%;
+        height: 325px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hambur1,
+    .hambur2,
+    .hambur3,
+    .hambur4{
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+
+@media screen and (max-width: 900px){
+
+    .contenedor-reservas{
+        display: grid;
+        grid-template-columns: 0.33fr 0.33fr 0.33fr;
+        grid-template-rows: 1fr 0.5fr;
+        grid-template-areas: 
+        "formulario hambur1 hambur2"
+        "formulario hambur3 hambur4";
+    }
+
+
+    .enviar-form {
+        margin: 10px 20px;
+    }
+
+    .intro-form p{
+        display: none;
+    }
+
+    .reservas-1{
+        margin: 20px auto;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .hambur1 img{
+        width: 300px;
+        height: 225px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .hambur2 img{
+        width: 300px;
+        height: 225px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur3 img{
+        width: 300px;
+        height: 225px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur4 img{
+        width: 300px;
+        height: 275px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hambur1,
+    .hambur2,
+    .hambur3,
+    .hambur4{
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+@media screen and (max-width: 780px){
+
+    .contenedor-reservas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas: 
+        "formulario"
+        "hambur1"
+        "hambur2"
+        "hambur3"
+        "hambur4";
+    }
+
+
+    .enviar-form {
+        margin: 10px 20px;
+    }
+
+    .intro-form p{
+        display: none;
+    }
+
+    button,
+    .form-select{
+        margin-top: 40px;
+    }
+
+    .reservas-1{
+        margin: 20px auto;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .hambur1 img{
+        width: 550px;
+        height: 450px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .hambur2 img{
+        width: 550px;
+        height: 400px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur3 img{
+        width: 550px;
+        height: 450px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur4 img{
+        width: 525px;
+        height: 475px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hambur1,
+    .hambur2,
+    .hambur3,
+    .hambur4{
+        max-width: 100%;
+        height: auto;
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+@media screen and (max-width: 580px){
+
+    .contenedor-reservas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas: 
+        "formulario"
+        "hambur1"
+        "hambur2"
+        "hambur3"
+        "hambur4";
+    }
+
+
+    .enviar-form {
+        margin: 10px 20px;
+    }
+
+    .intro-form p{
+        display: none;
+    }
+
+    button,
+    .form-select{
+        margin-top: 40px;
+    }
+
+    .reservas-1{
+        margin: 20px auto;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .hambur1 img{
+        width: 450px;
+        height: 400px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .hambur2 img{
+        width: 450px;
+        height: 350px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur3 img{
+        width: 450px;
+        height: 400px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambur4 img{
+        width: 425px;
+        height: 425px;
+        margin: 1px 1px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hambur1,
+    .hambur2,
+    .hambur3,
+    .hambur4{
+        max-width: 100%;
+        height: auto;
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+
+@media screen and (max-width: 480px){
+    
+    .contenedor-reservas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "formulario";
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .enviar-form {
+        margin: 10px 20px;
+    }
+
+    .intro-form p{
+        display: none;
+    }
+
+    button,
+    .form-select{
+        margin-top: 40px;
+    }
+
+    .reservas-1{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .hambur1 img,
+    .hambur2 img,
+    .hambur3 img,
+    .hambur4 img{
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 320px){
+    
+    .contenedor-reservas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "formulario";
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .enviar-form {
+        margin: 10px 20px;
+    }
+
+    .intro-form p{
+        display: none;
+    }
+
+    button,
+    .form-select{
+        margin-top: 40px;
+    }
+
+    .reservas-1{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .hambur1 img,
+    .hambur2 img,
+    .hambur3 img,
+    .hambur4 img{
+        display: none;
+    }
+   
+}
