@@ -1002,10 +1002,20 @@ button{
 /* PAGINA NUESTRA CARTA RESPONSIVE*/
 /* PAGINA NUESTRA CARTA RESPONSIVE*/
 
+@media screen and (max-width: 1024px) {   
+
+          
+    .carousel-inner img{
+        width: 400px;
+        height: 300px;
+    }
+
+}
+
 
 @media screen and (max-width: 768px) {   
 
-      
+          
     .carousel-inner img{
         width: 400px;
         height: 300px;
