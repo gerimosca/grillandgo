@@ -172,6 +172,16 @@ footer .contacto-redes .copyright {
 /* PAGINA NUESTRA CARTA */
 /* PAGINA NUESTRA CARTA */
 /* PAGINA NUESTRA CARTA */
+.nuestra--carta {
+  margin-top: 20px;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(237, 217, 0);
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
 .baconburger,
 .cheeseburger,
 .chickenburger,
@@ -179,10 +189,6 @@ footer .contacto-redes .copyright {
 .veggieburger {
   width: 650px;
   height: 550px;
-}
-
-.nuestra--carta {
-  margin-top: 20px;
 }
 
 .carousel {
@@ -208,40 +214,56 @@ footer .contacto-redes .copyright {
   justify-content: center;
   align-items: center;
 }
-
+.contenedor-reservas .formulario {
+  grid-area: formulario;
+}
+.contenedor-reservas .formulario .intro-form p {
+  margin: 20px;
+  text-align: center;
+  color: white;
+}
+.contenedor-reservas .formulario h2 {
+  font-family: "Permanent Marker", cursive;
+  color: rgb(237, 217, 0);
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.contenedor-reservas .hambur1 {
+  grid-area: hambur1;
+}
+.contenedor-reservas .hambur2 {
+  grid-area: hambur2;
+}
+.contenedor-reservas .hambur3 {
+  grid-area: hambur3;
+}
+.contenedor-reservas .hambur4 {
+  grid-area: hambur4;
+}
 .contenedor-reservas img {
   margin-top: 20px;
   margin-right: 15px;
 }
-
-.formulario {
-  grid-area: formulario;
+.contenedor-reservas .hambur1 img {
+  width: 500px;
+  height: 400px;
 }
-
-.hambur1 {
-  grid-area: hambur1;
+.contenedor-reservas .hambur2 img {
+  width: 500px;
+  height: 350px;
 }
-
-.hambur2 {
-  grid-area: hambur2;
+.contenedor-reservas .hambur3 img {
+  width: 500px;
+  height: 400px;
 }
-
-.hambur3 {
-  grid-area: hambur3;
+.contenedor-reservas .hambur4 img {
+  width: 475px;
+  height: 450px;
 }
-
-.hambur4 {
-  grid-area: hambur4;
-}
-
-.enviar-form {
+.contenedor-reservas .enviar-form {
   margin: 20px;
-}
-
-.intro-form p {
-  margin: 20px;
-  text-align: center;
-  color: white;
 }
 
 label {
@@ -254,30 +276,6 @@ label {
 
 button {
   margin-top: 40px;
-}
-
-.reservas-text {
-  margin-top: 20px;
-}
-
-.hambur1 img {
-  width: 500px;
-  height: 400px;
-}
-
-.hambur2 img {
-  width: 500px;
-  height: 350px;
-}
-
-.hambur3 img {
-  width: 500px;
-  height: 400px;
-}
-
-.hambur4 img {
-  width: 475px;
-  height: 450px;
 }
 
 /* PAGINA CONTACTO */
@@ -298,6 +296,14 @@ button {
 }
 .contenedor .formgrid .contacto-1 {
   margin-top: 20px;
+}
+.contenedor .formgrid h2 {
+  font-family: "Permanent Marker", cursive;
+  color: rgb(237, 217, 0);
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-align: center;
 }
 .contenedor .formgrid {
   grid-area: formgrid;
@@ -324,88 +330,104 @@ button {
 /* PAGINA PEDIDOS */
 /* PAGINA PEDIDOS */
 /* PAGINA PEDIDOS */
+.mas-pedidos {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(237, 217, 0);
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
 .contenedor-pedidos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "hamburguesa1 hamburguesa2 hamburguesa3" "hamburguesa4 hamburguesa5 hamburguesa6" "hamburguesa7 hamburguesa8 hamburguesa9";
 }
-
 .contenedor-pedidos img {
   width: 475px;
   height: 300px;
   border-radius: 10px;
 }
-
-.mas-pedidos {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.hamburguesa1 {
+.contenedor-pedidos .hamburguesa1 {
   grid-area: hamburguesa1;
 }
-
-.hamburguesa2 {
+.contenedor-pedidos .hamburguesa2 {
   grid-area: hamburguesa2;
 }
-
-.hamburguesa3 {
+.contenedor-pedidos .hamburguesa3 {
   grid-area: hamburguesa3;
 }
-
-.hamburguesa4 {
+.contenedor-pedidos .hamburguesa4 {
   grid-area: hamburguesa4;
 }
-
-.hamburguesa5 {
+.contenedor-pedidos .hamburguesa5 {
   grid-area: hamburguesa5;
 }
-
-.hamburguesa6 {
+.contenedor-pedidos .hamburguesa6 {
   grid-area: hamburguesa6;
 }
-
-.hamburguesa7 {
+.contenedor-pedidos .hamburguesa7 {
   grid-area: hamburguesa7;
 }
-
-.hamburguesa8 {
+.contenedor-pedidos .hamburguesa8 {
   grid-area: hamburguesa8;
 }
-
-.hamburguesa9 {
+.contenedor-pedidos .hamburguesa9 {
   grid-area: hamburguesa9;
 }
-
-.hamburguesa1,
-.hamburguesa2,
-.hamburguesa3,
-.hamburguesa4,
-.hamburguesa5,
-.hamburguesa6,
-.hamburguesa7,
-.hamburguesa8,
-.hamburguesa9 {
+.contenedor-pedidos .hamburguesa1,
+.contenedor-pedidos .hamburguesa2,
+.contenedor-pedidos .hamburguesa3,
+.contenedor-pedidos .hamburguesa4,
+.contenedor-pedidos .hamburguesa5,
+.contenedor-pedidos .hamburguesa6,
+.contenedor-pedidos .hamburguesa7,
+.contenedor-pedidos .hamburguesa8,
+.contenedor-pedidos .hamburguesa9 {
   display: grid;
   place-items: center;
   text-align: center;
   width: 100%;
 }
-
-.text-pedido {
+.contenedor-pedidos .hamburguesa1 .text-pedido,
+.contenedor-pedidos .hamburguesa2 .text-pedido,
+.contenedor-pedidos .hamburguesa3 .text-pedido,
+.contenedor-pedidos .hamburguesa4 .text-pedido,
+.contenedor-pedidos .hamburguesa5 .text-pedido,
+.contenedor-pedidos .hamburguesa6 .text-pedido,
+.contenedor-pedidos .hamburguesa7 .text-pedido,
+.contenedor-pedidos .hamburguesa8 .text-pedido,
+.contenedor-pedidos .hamburguesa9 .text-pedido {
   color: white;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 475px;
 }
-
-.titulo-pedido {
+.contenedor-pedidos .hamburguesa1 .titulo-pedido,
+.contenedor-pedidos .hamburguesa2 .titulo-pedido,
+.contenedor-pedidos .hamburguesa3 .titulo-pedido,
+.contenedor-pedidos .hamburguesa4 .titulo-pedido,
+.contenedor-pedidos .hamburguesa5 .titulo-pedido,
+.contenedor-pedidos .hamburguesa6 .titulo-pedido,
+.contenedor-pedidos .hamburguesa7 .titulo-pedido,
+.contenedor-pedidos .hamburguesa8 .titulo-pedido,
+.contenedor-pedidos .hamburguesa9 .titulo-pedido {
   color: rgb(207, 185, 15);
 }
-
-.hamburguesa h4 {
+.contenedor-pedidos .hamburguesa1 h4,
+.contenedor-pedidos .hamburguesa2 h4,
+.contenedor-pedidos .hamburguesa3 h4,
+.contenedor-pedidos .hamburguesa4 h4,
+.contenedor-pedidos .hamburguesa5 h4,
+.contenedor-pedidos .hamburguesa6 h4,
+.contenedor-pedidos .hamburguesa7 h4,
+.contenedor-pedidos .hamburguesa8 h4,
+.contenedor-pedidos .hamburguesa9 h4 {
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -1538,7 +1560,7 @@ button {
   }
   .hambur1 img {
     width: 300px;
-    height: 225px;
+    height: 105px;
     margin: 1px 1px;
     justify-content: center;
     align-items: center;

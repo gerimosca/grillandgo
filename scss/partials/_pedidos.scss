@@ -2,6 +2,17 @@
 /* PAGINA PEDIDOS */
 /* PAGINA PEDIDOS */
 
+.mas-pedidos{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(237, 217, 0);
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
 .contenedor-pedidos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,89 +21,73 @@
     "hamburguesa1 hamburguesa2 hamburguesa3"
     "hamburguesa4 hamburguesa5 hamburguesa6"
     "hamburguesa7 hamburguesa8 hamburguesa9";
-
-}
-
-.contenedor-pedidos img{
-    width: 475px;
-    height: 300px;
-    border-radius: 10px;
     
-}
+    img{
+        width: 475px;
+        height: 300px;
+        border-radius: 10px;
+        
+    }
 
+    .hamburguesa1{
+        grid-area: hamburguesa1;
+    }
+    .hamburguesa2{
+        grid-area: hamburguesa2;
+    }
+    .hamburguesa3{
+        grid-area: hamburguesa3;
+    }
+    .hamburguesa4{
+        grid-area: hamburguesa4;
+    }
+    .hamburguesa5{
+        grid-area: hamburguesa5;
+    }
+    .hamburguesa6{
+        grid-area: hamburguesa6;
+    }
+    .hamburguesa7{
+        grid-area: hamburguesa7;
+    }
+    .hamburguesa8{
+        grid-area: hamburguesa8;
+    }
+    .hamburguesa9{
+        grid-area: hamburguesa9;
+    }
 
-.mas-pedidos{
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
+    .hamburguesa1,
+    .hamburguesa2,
+    .hamburguesa3,
+    .hamburguesa4,
+    .hamburguesa5,
+    .hamburguesa6,
+    .hamburguesa7,
+    .hamburguesa8,
+    .hamburguesa9{
+        display: grid;
+        place-items: center;
+        text-align: center;
+        width: 100%;
 
+        .text-pedido{
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 475px;
+        }
 
-.hamburguesa1{
-    grid-area: hamburguesa1;
+        .titulo-pedido{
+            color: rgb(207, 185, 15);;
+        }
 
-}
+        h4{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    }
 
-.hamburguesa2{
-    grid-area: hamburguesa2;
-}
-
-.hamburguesa3{
-    grid-area: hamburguesa3;
-}
-
-.hamburguesa4{
-    grid-area: hamburguesa4;
-}
-
-.hamburguesa5{
-    grid-area: hamburguesa5;
-}
-
-.hamburguesa6{
-    grid-area: hamburguesa6;
-}
-
-.hamburguesa7{
-    grid-area: hamburguesa7;
-}
-
-.hamburguesa8{
-    grid-area: hamburguesa8;
-}
-
-.hamburguesa9{
-    grid-area: hamburguesa9;
-}
-
-.hamburguesa1,
-.hamburguesa2,
-.hamburguesa3,
-.hamburguesa4,
-.hamburguesa5,
-.hamburguesa6,
-.hamburguesa7,
-.hamburguesa8,
-.hamburguesa9{
-    display: grid;
-    place-items: center;
-    text-align: center;
-    width: 100%;
-}
-
-.text-pedido{
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 475px;
-}
-
-.titulo-pedido{
-    color: rgb(207, 185, 15);;
-}
-
-.hamburguesa h4{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
