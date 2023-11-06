@@ -1,0 +1,87 @@
+/* PAGINA RESERVAS */
+/* PAGINA RESERVAS */
+/* PAGINA RESERVAS */
+
+.contenedor-reservas{
+    display: grid;
+    grid-template-columns: 1.2fr 1.4fr 1.4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "formulario hambur1 hambur2"
+    "formulario hambur3 hambur4";
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-reservas img{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.formulario{
+    grid-area: formulario;
+}
+
+.hambur1{
+    grid-area: hambur1;
+}
+
+.hambur2{
+    grid-area: hambur2;
+}
+
+.hambur3{
+    grid-area: hambur3;
+}
+
+.hambur4{
+    grid-area: hambur4;
+}
+
+
+
+.enviar-form {
+    margin: 20px;
+}
+
+.intro-form p{
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+label{
+    color: rgb(207, 185, 15);
+}
+
+.form-select{
+    margin-top: 40px;
+}
+
+button{
+    margin-top: 40px;
+}
+
+.reservas-text{
+    margin-top: 20px;
+}
+
+.hambur1 img{
+    width: 500px;
+    height: 400px;
+
+}
+.hambur2 img{
+    width: 500px;
+    height: 350px;
+}
+
+.hambur3 img{
+    width: 500px;
+    height: 400px;
+}
+
+.hambur4 img{
+    width: 475px;
+    height: 450px;
+}

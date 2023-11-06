@@ -1,0 +1,29 @@
+/* PAGINA NUESTRA CARTA */
+/* PAGINA NUESTRA CARTA */
+/* PAGINA NUESTRA CARTA */
+
+.baconburger,
+.cheeseburger,
+.chickenburger,
+.triplecheeseburger,
+.veggieburger {
+    width: 650px;
+    height: 550px;
+}
+
+.nuestra--carta{
+    margin-top: 20px;
+}
+
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.carousel-item img{
+    margin-bottom: 90px;
+}

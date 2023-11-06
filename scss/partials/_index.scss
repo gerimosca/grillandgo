@@ -1,0 +1,121 @@
+/* INDEX */
+/* INDEX */
+/* INDEX */
+
+.contenedor-principal{
+
+    .principal-1{
+        display: flex;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+
+        h1{
+            font-family: 'Permanent Marker', cursive;
+            color: rgb(237, 217, 0);
+            font-weight: bold;
+            font-size: 50px;
+            letter-spacing: 4px;
+            margin-bottom: 30px;
+            margin-left: 10px;
+            text-align: center;
+        }
+
+        img{
+            width: 1000px;
+            height: 450px;
+            margin: 30px 20px;
+            margin-bottom: 60px;
+        }
+    }
+
+/* INDEX MAIN-IMG2 */
+
+    .principal-2{
+        display: flex;
+        align-items: center;
+        
+        img {
+            width: 600px;
+            height: 800px;
+            margin: 40px 30px;
+            margin-bottom: 60px;
+        }
+
+        .principal-2-1{
+            p,
+            h2{
+                width: 600px;
+                margin: 40px 80px;
+                text-align: center;
+                justify-content: center;
+            }
+
+            p{
+                color: white;
+            }
+
+            h2{
+                font-family: 'Permanent Marker', cursive;
+                color: rgb(237, 217, 0);
+                font-weight: bold;
+                font-size: 50px;
+                letter-spacing: 4px;
+                text-align: center;
+            }
+        }   
+    }
+
+
+/* INDEX LINK-RESERVA */
+
+
+    .img-reserva-main {
+        margin: auto 75px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: rgb(237, 217, 0);
+        border-radius: 50px;
+
+            &:hover{
+                background-color: rgb(211, 195, 20);
+            }
+
+            .link-img-reserva-main {
+                text-decoration: none;
+                
+                h3 {
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
+                    font-size: 65px;
+                    letter-spacing: 4px;
+                    text-align: center;
+                    padding: 70px;
+                    border-radius: 25px;
+                    font-family: 'Permanent Marker', cursive;
+                }
+            }
+        }
+
+/* INDEX IFRAME-IFRAME */
+
+    .iframe-maps{
+        background-color: rgb(0, 0, 0);
+
+        iframe{
+            display: flex;
+            align-items: center;
+            margin: 30px auto;
+            width: 80%;
+            height: 400px;
+            border-radius: 50px;
+        }
+    }
+}
+
+
+    
+
+    
+
+
+    
