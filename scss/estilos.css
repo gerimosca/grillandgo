@@ -227,7 +227,7 @@ footer .contacto-redes .copyright {
   margin: 20px;
 }
 .contenedor-reservas .formulario .enviar-form label {
-  color: rgb(207, 185, 15);
+  color: rgb(237, 217, 0);
 }
 .contenedor-reservas .formulario .enviar-form .form-select {
   margin-top: 40px;
@@ -286,6 +286,10 @@ footer .contacto-redes .copyright {
 }
 .contenedor .formgrid .contacto-1 {
   margin-top: 20px;
+  transition: transform 3s;
+}
+.contenedor .formgrid .contacto-1:hover {
+  transform: rotate(360deg);
 }
 .contenedor .formgrid h2 {
   font-family: "Permanent Marker", cursive;
@@ -410,7 +414,7 @@ footer .contacto-redes .copyright {
 .contenedor-pedidos .hamburguesa7 .titulo-pedido,
 .contenedor-pedidos .hamburguesa8 .titulo-pedido,
 .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-  color: rgb(207, 185, 15);
+  color: rgb(237, 217, 0);
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -571,7 +575,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -666,7 +670,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -760,7 +764,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -854,7 +858,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -948,7 +952,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -1042,7 +1046,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -1136,7 +1140,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -1230,7 +1234,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -1323,7 +1327,7 @@ footer .contacto-redes .copyright {
   .contenedor-pedidos .hamburguesa7 .titulo-pedido,
   .contenedor-pedidos .hamburguesa8 .titulo-pedido,
   .contenedor-pedidos .hamburguesa9 .titulo-pedido {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -2550,7 +2554,7 @@ footer .contacto-redes .copyright {
     margin: 20px;
   }
   .contenedor-reservas .formulario .enviar-form label {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
   }
   .contenedor-reservas .formulario .enviar-form .form-select {
     margin-top: 40px;
@@ -2625,7 +2629,7 @@ footer .contacto-redes .copyright {
     margin: 20px;
   }
   .contenedor-reservas .formulario .enviar-form label {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
   }
   .contenedor-reservas .formulario .enviar-form .form-select {
     margin-top: 40px;
@@ -2700,7 +2704,7 @@ footer .contacto-redes .copyright {
     margin: 20px;
   }
   .contenedor-reservas .formulario .enviar-form label {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
   }
   .contenedor-reservas .formulario .enviar-form .form-select {
     margin-top: 40px;
@@ -2778,7 +2782,7 @@ footer .contacto-redes .copyright {
     margin: 20px;
   }
   .contenedor-reservas .formulario .enviar-form label {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
   }
   .contenedor-reservas .formulario .enviar-form .form-select {
     margin-top: 40px;
@@ -2856,7 +2860,7 @@ footer .contacto-redes .copyright {
     margin: 20px;
   }
   .contenedor-reservas .formulario .enviar-form label {
-    color: rgb(207, 185, 15);
+    color: rgb(237, 217, 0);
   }
   .contenedor-reservas .formulario .enviar-form .form-select {
     margin-top: 40px;

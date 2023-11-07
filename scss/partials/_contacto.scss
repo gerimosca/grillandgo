@@ -21,6 +21,10 @@
     .formgrid{
         .contacto-1{
             margin-top: 20px;
+            transition: transform 3s;
+                &:hover{
+                    transform: rotate(360deg);
+                }
         }
 
         h2{
