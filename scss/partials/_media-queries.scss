@@ -2280,7 +2280,7 @@
         "tibidabo";
     }
     
-    .contenedor img{
+        img{
         max-width: 100%;
         height: auto;
         margin: 10px auto;
@@ -2300,33 +2300,35 @@
 
 @media screen and (max-width: 320px){
     
-.contenedor{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.25fr 0.25fr 0.25fr 0.25fr;
-    grid-template-areas: 
-    "formgrid" 
-    "balmes"
-    "diagonal"
-    "barceloneta"
-    "tibidabo";
-}
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.25fr 0.25fr 0.25fr 0.25fr;
+        grid-template-areas: 
+        "formgrid" 
+        "balmes"
+        "diagonal"
+        "barceloneta"
+        "tibidabo";
+        
 
-.contenedor img{
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    justify-content: center;
-    border-radius: 10px;
-}
+        img{
+            max-width: 100%;
+            height: auto;
+            margin: auto;
+            justify-content: center;
+            border-radius: 10px;
+        }
 
-.balmes,
-.diagonal,
-.barceloneta,
-.tibidabo{
-    color: white;
-    margin: 10px
-}
+    } 
+
+    .balmes,
+    .diagonal,
+    .barceloneta,
+    .tibidabo{
+            color: white;
+            margin: 10px
+    }
 
 }
 

@@ -12,11 +12,13 @@ body{
         justify-content: space-between;
         margin: 0px auto;
 
-        .link-logo img{
-            margin-left: 10px;
-            width: 80px;
-            height: 100px
-        }
+        .link-logo{
+            img{
+                margin-left: 10px;
+                width: 80px;
+                height: 80px
+            }
+        } 
         
         .name-compania{
             text-decoration: none;
@@ -24,7 +26,7 @@ body{
             font-size: 35px;
             font-weight: bold;
             margin: 2px auto;
-            margin-left: 5px;
+            margin-left: 10px;
             color: rgb(225, 225, 225);
                 &:hover{
                     color: rgb(0, 0, 0);
