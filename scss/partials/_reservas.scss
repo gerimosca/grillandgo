@@ -30,6 +30,22 @@
             letter-spacing: 4px;
             text-align: center;
         } 
+
+        .enviar-form {
+            margin: 20px;
+
+            label{
+                color: rgb(207, 185, 15);
+            }
+            
+            .form-select{
+                margin-top: 40px;
+            }
+            
+            button{
+                margin-top: 40px;
+            }
+        }
     }
     
     .hambur1{
@@ -68,21 +84,5 @@
     .hambur4 img{
         width: 475px;
         height: 450px;
-    }
-
-    .enviar-form {
-        margin: 20px;
-    }
-}
-
-label{
-    color: rgb(207, 185, 15);
-}
-
-.form-select{
-    margin-top: 40px;
-}
-
-button{
-    margin-top: 40px;
+    }   
 }
