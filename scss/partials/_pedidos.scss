@@ -6,7 +6,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
     font-family: 'Permanent Marker', cursive;
-    color: rgb(237, 217, 0);
+    color: $titlecolor;
     font-weight: bold;
     font-size: 50px;
     letter-spacing: 4px;
@@ -79,7 +79,7 @@
         }
 
         .titulo-pedido{
-            color: rgb(207, 185, 15);
+            color: $titlecolor;
             align-items: center;
             justify-content: center;
             text-align: center;
