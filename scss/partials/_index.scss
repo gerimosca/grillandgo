@@ -28,8 +28,6 @@
         }
     }
 
-/* INDEX MAIN-IMG2 */
-
     .principal-2{
         display: flex;
         align-items: center;
@@ -65,10 +63,6 @@
         }   
     }
 
-
-/* INDEX LINK-RESERVA */
-
-
     .img-reserva-main {
         margin: auto 75px;
         border-style: solid;
@@ -76,9 +70,9 @@
         border-color: rgb(237, 217, 0);
         border-radius: 50px;
 
-            &:hover{
-                background-color: rgb(211, 195, 20);
-            }
+        &:hover{
+            background-color: rgb(211, 195, 20);
+        }
 
             .link-img-reserva-main {
                 text-decoration: none;
@@ -94,9 +88,7 @@
                     font-family: 'Permanent Marker', cursive;
                 }
             }
-        }
-
-/* INDEX IFRAME-IFRAME */
+    }
 
     .iframe-maps{
         background-color: rgb(0, 0, 0);
