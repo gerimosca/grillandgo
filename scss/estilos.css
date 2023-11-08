@@ -1446,7 +1446,7 @@ footer .contacto-redes .copyright {
   .contenedor-principal .img-reserva-main .link-img-reserva-main {
     text-decoration: none;
   }
-  .contenedor-principal .img-reserva-main .link-img-reserva-main h3 {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main .titulo-reserva-main {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 30px;
@@ -1532,7 +1532,7 @@ footer .contacto-redes .copyright {
   .contenedor-principal .img-reserva-main .link-img-reserva-main {
     text-decoration: none;
   }
-  .contenedor-principal .img-reserva-main .link-img-reserva-main h3 {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main .titulo-reserva-main {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 30px;
@@ -1644,13 +1644,13 @@ footer .contacto-redes .copyright {
     justify-content: center;
     height: 200px;
   }
-  .contenedor-principal .img-reserva-main a {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main {
     justify-content: center;
     border-width: 3px;
     border-radius: 20px;
     height: 100px;
   }
-  .contenedor-principal .img-reserva-main a .titulo-reserva-main {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main .titulo-reserva-main {
     font-size: 20px;
     justify-content: center;
     letter-spacing: 4px;
@@ -1758,13 +1758,13 @@ footer .contacto-redes .copyright {
     justify-content: center;
     height: 200px;
   }
-  .contenedor-principal .img-reserva-main a {
-    margin: 30px auto;
+  .contenedor-principal .img-reserva-main .link-img-reserva-main {
     justify-content: center;
     border-width: 3px;
     border-radius: 20px;
+    height: 110px;
   }
-  .contenedor-principal .img-reserva-main a .titulo-reserva-main {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main .titulo-reserva-main {
     font-size: 20px;
     margin: 5px;
     justify-content: center;
@@ -1872,13 +1872,13 @@ footer .contacto-redes .copyright {
     justify-content: center;
     height: 200px;
   }
-  .contenedor-principal .img-reserva-main a {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main {
     margin: 30px auto;
     justify-content: center;
     border-width: 3px;
     border-radius: 20px;
   }
-  .contenedor-principal .img-reserva-main a .titulo-reserva-main {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main .titulo-reserva-main {
     font-size: 20px;
     margin: 5px;
     justify-content: center;
@@ -1982,13 +1982,13 @@ footer .contacto-redes .copyright {
     justify-content: center;
     height: 200px;
   }
-  .contenedor-principal .img-reserva-main a {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main {
     margin: 30px auto;
     justify-content: center;
     border-width: 3px;
     border-radius: 20px;
   }
-  .contenedor-principal .img-reserva-main a .titulo-reserva-main {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main .titulo-reserva-main {
     font-size: 20px;
     margin: 5px;
     justify-content: center;
@@ -2092,13 +2092,13 @@ footer .contacto-redes .copyright {
     justify-content: center;
     height: 200px;
   }
-  .contenedor-principal .img-reserva-main a {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main {
     margin: 30px auto;
     justify-content: center;
     border-width: 3px;
     border-radius: 20px;
   }
-  .contenedor-principal .img-reserva-main a .titulo-reserva-main {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main .titulo-reserva-main {
     font-size: 20px;
     margin: 5px;
     justify-content: center;
@@ -2196,23 +2196,23 @@ footer .contacto-redes .copyright {
     display: none;
   }
   .contenedor-principal .img-reserva-main {
-    width: 90%;
-    margin: 10px auto;
-    margin-top: 5px;
+    width: 95%;
+    margin: 0px auto;
     justify-content: center;
     height: 200px;
   }
-  .contenedor-principal .img-reserva-main a {
-    margin: 30px auto;
+  .contenedor-principal .img-reserva-main .link-img-reserva-main {
     justify-content: center;
+    align-items: center;
     border-width: 3px;
     border-radius: 20px;
   }
-  .contenedor-principal .img-reserva-main a .titulo-reserva-main {
+  .contenedor-principal .img-reserva-main .link-img-reserva-main .titulo-reserva-main {
+    margin: 0px auto;
     font-size: 18px;
-    margin: 5px;
+    width: 100%;
     justify-content: center;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-align: center;
     border-radius: 10px;
   }

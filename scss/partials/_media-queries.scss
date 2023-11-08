@@ -1021,7 +1021,7 @@
                 .link-img-reserva-main {
                     text-decoration: none;
                     
-                    h3 {
+                    .titulo-reserva-main{
                         color: rgb(255, 255, 255);
                         font-weight: bold;
                         font-size: 30px;
@@ -1129,7 +1129,7 @@
                 .link-img-reserva-main {
                     text-decoration: none;
                     
-                    h3 {
+                    .titulo-reserva-main{
                         color: rgb(255, 255, 255);
                         font-weight: bold;
                         font-size: 30px;
@@ -1267,7 +1267,7 @@
             justify-content: center;
             height: 200px;
 
-            a{
+            .link-img-reserva-main{
                 justify-content: center;
                 border-width: 3px;
                 border-radius: 20px;
@@ -1407,11 +1407,11 @@
             justify-content: center;
             height: 200px;
 
-            a{
-                margin: 30px auto;
+            .link-img-reserva-main{
                 justify-content: center;
                 border-width: 3px;
                 border-radius: 20px;
+                height: 110px;
 
 
                 .titulo-reserva-main{
@@ -1547,7 +1547,7 @@
             justify-content: center;
             height: 200px;
 
-            a{
+            .link-img-reserva-main{
                 margin: 30px auto;
                 justify-content: center;
                 border-width: 3px;
@@ -1686,7 +1686,7 @@
             justify-content: center;
             height: 200px;
 
-            a{
+            .link-img-reserva-main{
                 margin: 30px auto;
                 justify-content: center;
                 border-width: 3px;
@@ -1823,7 +1823,7 @@
             justify-content: center;
             height: 200px;
 
-            a{
+            .link-img-reserva-main{
                 margin: 30px auto;
                 justify-content: center;
                 border-width: 3px;
@@ -1956,24 +1956,24 @@
         }
                
         .img-reserva-main{
-            width: 90%;
-            margin: 10px auto;
-            margin-top: 5px;
+            width: 95%;
+            margin: 0px auto;
             justify-content: center;
             height: 200px;
 
-            a{
-                margin: 30px auto;
+            .link-img-reserva-main{
                 justify-content: center;
+                align-items: center;
                 border-width: 3px;
                 border-radius: 20px;
 
 
                 .titulo-reserva-main{
+                    margin: 0px auto;
                     font-size: 18px;
-                    margin: 5px;
+                    width: 100%;
                     justify-content: center;
-                    letter-spacing: 4px;
+                    letter-spacing: 2px;
                     text-align: center;
                     border-radius: 10px;
                 }
