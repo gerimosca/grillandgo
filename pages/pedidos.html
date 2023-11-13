@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -46,7 +48,7 @@
         </nav>
     </header>
     <main>
-        <h1 class="mas-pedidos">LOS MAS PEDIDOS</h1>
+        <h1 class="mas-pedidos animate__animated animate__headShake">LOS MAS PEDIDOS</h1>
         <div class="contenedor-pedidos">
             <div class="hamburguesa1">
                 <div class="pedido1"><img src="../img/Burger1.jpg" alt="hamburguesa 1"></div>
@@ -104,5 +106,9 @@
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

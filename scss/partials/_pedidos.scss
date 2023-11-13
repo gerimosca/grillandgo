@@ -2,15 +2,18 @@
 /* PAGINA PEDIDOS */
 /* PAGINA PEDIDOS */
 
-.mas-pedidos{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-family: 'Permanent Marker', cursive;
-    color: $titlecolor;
-    font-weight: bold;
-    font-size: 50px;
-    letter-spacing: 4px;
-    text-align: center;
+main{
+    .mas-pedidos{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: 'Permanent Marker', cursive;
+        color: $titlecolor;
+        font-weight: bold;
+        font-size: 50px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
 }
 
 .contenedor-pedidos{
@@ -81,6 +84,7 @@
             align-items: center;
             text-align: center;
             width: 475px;
+            font-size: 15px;
         }
 
         .titulo-pedido{

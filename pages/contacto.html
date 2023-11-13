@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grill & Go | Contacto</title>
     <meta name="description" content="Ponte en contacto con nosotros para cualquier pregunta o consulta. Estamos para ayudarte en lo que necesites.">
-    <meta name="keywords" content="Contacto, información, email, teléfono, formulario, consultas, preguntas, ayuda">
+    <meta name="keywords" content="Contacto, información, email, teléfono, formulario, consultas, preguntas, ayuda.">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../scss/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -48,7 +50,7 @@
     <main>
         <div class="contenedor">
             <div class="formgrid">
-                <h2 class="contacto-1">Contacto</h2>
+                <h2 class="contacto-1 animate__animated animate__headShake">Contacto</h2>
                 <form class="enviar-form" action="./formulario-enviado.html" method="get">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
@@ -78,10 +80,10 @@
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
-            <div class="balmes"><img src="../img/restaurante1.jpg" alt="restaurante1">Restaurante Balmes</div>
-            <div class="diagonal"><img src="../img/restaurante2.jpg" alt="restaurante2">Restaurante Diagonal</div>
-            <div class="barceloneta"><img src="../img/restaurante3.jpg" alt="restaurante3">Restaurante Barceloneta</div>
-            <div class="tibidabo"><img src="../img/restaurante4.jpg" alt="restaurante4">Restaurante Av. Tibidabo</div>
+            <div class="balmes animate__animated animate__lightSpeedInLeft"><img src="../img/restaurante1.jpg" alt="restaurante1">Restaurante Balmes</div>
+            <div class="diagonal animate__animated animate__lightSpeedInRight"><img src="../img/restaurante2.jpg" alt="restaurante2">Restaurante Diagonal</div>
+            <div class="barceloneta animate__animated animate__lightSpeedInLeft"><img src="../img/restaurante3.jpg" alt="restaurante3">Restaurante Barceloneta</div>
+            <div class="tibidabo animate__animated animate__lightSpeedInRight"><img src="../img/restaurante4.jpg" alt="restaurante4">Restaurante Av. Tibidabo</div>
         </div>
     </main>
     <footer>
@@ -93,5 +95,9 @@
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -48,7 +50,7 @@
     <main>
         <div class="contenedor-reservas">
             <div class="formulario">
-                <h2 class="reservas-1">Reservas</h2>
+                <h2 class="reservas-1 animate__animated animate__headShake">Reservas</h2>
                 <div class="intro-form">
                     <p>Completá tus datos y elegí día y horario para poder realizar tu reserva. Recibirás un email de confirmación</p>
                 </div>
@@ -96,10 +98,10 @@
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
-            <div class="hambur1"><img src="../img/reservas1.png" alt="hamburguesa 1"></div>
-            <div class="hambur2"><img src="../img/reservas2.png" alt="hamburguesa 2"></div>
-            <div class="hambur3"><img src="../img/reservas3.png" alt="hamburguesa 3"></div>
-            <div class="hambur4"><img src="../img/reservas4.png" alt="hamburguesa 4"></div>
+            <div class="hambur1" data-aos="fade-right"><img src="../img/reservas1.png" alt="hamburguesa 1"></div>
+            <div class="hambur2" data-aos="fade-left"><img src="../img/reservas2.png" alt="hamburguesa 2"></div>
+            <div class="hambur3" data-aos="fade-right"><img src="../img/reservas3.png" alt="hamburguesa 3"></div>
+            <div class="hambur4" data-aos="fade-left"><img src="../img/reservas4.png" alt="hamburguesa 4"></div>
         </div>
     </main>
     <footer>
@@ -111,5 +113,9 @@
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

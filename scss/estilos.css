@@ -262,7 +262,8 @@ footer .contacto-redes .copyright {
 }
 .contenedor-reservas .hambur4 img {
   width: 475px;
-  height: 450px;
+  height: 425px;
+  margin-top: 20px;
 }
 
 /* PAGINA CONTACTO */
@@ -324,7 +325,7 @@ footer .contacto-redes .copyright {
 /* PAGINA PEDIDOS */
 /* PAGINA PEDIDOS */
 /* PAGINA PEDIDOS */
-.mas-pedidos {
+main .mas-pedidos {
   margin-top: 20px;
   margin-bottom: 30px;
   font-family: "Permanent Marker", cursive;
@@ -423,6 +424,7 @@ footer .contacto-redes .copyright {
   align-items: center;
   text-align: center;
   width: 475px;
+  font-size: 15px;
 }
 .hamburguesa1 .titulo-pedido,
 .hamburguesa2 .titulo-pedido,
