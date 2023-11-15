@@ -15,6 +15,7 @@ body header .navbar.navbar-expand-lg.bg-body-tertiary {
 }
 body header .navbar.navbar-expand-lg.bg-body-tertiary .container-fluid {
   background-color: rgb(168, 51, 51);
+  width: 100%;
 }
 body header .navbar.navbar-expand-lg.bg-body-tertiary .container-fluid .navbar-brand {
   margin-left: 10px;
@@ -1901,7 +1902,7 @@ main .mas-pedidos {
   .contenedor-principal {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 0.3fr 0.3fr 0.4fr;
+    grid-template-rows: 0.4fr 1fr 1fr 0.6fr;
     grid-template-areas: "principal-1" "principal-2" "img-reserva-main" "iframe-maps";
   }
   .contenedor-principal .principal-1 {
@@ -1963,24 +1964,26 @@ main .mas-pedidos {
   }
   .contenedor-principal .principal-2 .principal-2-1 {
     height: 350px;
-    width: 290px;
+    width: 460px;
     margin-top: 40px;
     margin: 10px auto;
     justify-content: center;
   }
   .contenedor-principal .principal-2 .principal-2-1 h2 {
-    display: none;
     font-size: 20px;
     letter-spacing: 4px;
     text-align: center;
   }
   .contenedor-principal .principal-2 .principal-2-1 .text1 {
-    display: none;
+    font-size: 13px;
+    width: 460px;
+    margin: auto;
+    text-align: center;
   }
   .contenedor-principal .img-reserva-main {
     width: 90%;
     margin: 10px auto;
-    margin-top: 25px;
+    margin-top: 350px;
     justify-content: center;
     height: 200px;
   }
@@ -2073,24 +2076,26 @@ main .mas-pedidos {
   }
   .contenedor-principal .principal-2 .principal-2-1 {
     height: 350px;
-    width: 290px;
+    width: 390px;
     margin-top: 40px;
     margin: 10px auto;
     justify-content: center;
   }
   .contenedor-principal .principal-2 .principal-2-1 h2 {
-    display: none;
     font-size: 20px;
     letter-spacing: 4px;
     text-align: center;
   }
   .contenedor-principal .principal-2 .principal-2-1 .text1 {
-    display: none;
+    font-size: 13px;
+    width: 390px;
+    margin: auto;
+    text-align: center;
   }
   .contenedor-principal .img-reserva-main {
     width: 95%;
     margin: 10px auto;
-    margin-top: 10px;
+    margin-top: 390px;
     justify-content: center;
     height: 200px;
   }
@@ -2183,23 +2188,26 @@ main .mas-pedidos {
   }
   .contenedor-principal .principal-2 .principal-2-1 {
     height: 350px;
-    width: 290px;
+    width: 310px;
     margin-top: 40px;
     margin: 10px auto;
     justify-content: center;
   }
   .contenedor-principal .principal-2 .principal-2-1 h2 {
-    display: none;
     font-size: 20px;
     letter-spacing: 4px;
     text-align: center;
   }
   .contenedor-principal .principal-2 .principal-2-1 .text1 {
-    display: none;
+    font-size: 13px;
+    width: 310px;
+    margin: auto;
+    text-align: center;
   }
   .contenedor-principal .img-reserva-main {
     width: 95%;
     margin: 0px auto;
+    margin-top: 450px;
     justify-content: center;
     height: 200px;
   }
@@ -2223,8 +2231,8 @@ main .mas-pedidos {
     justify-content: center;
   }
   .contenedor-principal .iframe-maps iframe {
-    width: 300px;
-    height: 250px;
+    width: 310px;
+    height: 310px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -2812,8 +2820,8 @@ main .mas-pedidos {
     margin-top: 40px;
   }
   .contenedor-reservas .hambur1 img {
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 350px;
     margin: 1px 1px;
     justify-content: center;
     align-items: center;
@@ -2854,8 +2862,8 @@ main .mas-pedidos {
   .contenedor-reservas {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "formulario";
+    grid-template-rows: 1fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-areas: "formulario" "hambur1" "hambur2" "hambur3" "hambur4";
     justify-content: center;
     align-items: center;
   }
@@ -2897,6 +2905,38 @@ main .mas-pedidos {
   .contenedor-reservas .hambur2 img,
   .contenedor-reservas .hambur3 img,
   .contenedor-reservas .hambur4 img {
-    display: none;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-reservas .hambur1 img {
+    width: 300px;
+    height: 250px;
+    margin: 1px 1px;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-reservas .hambur2 img {
+    width: 300px;
+    height: 250px;
+    margin: 1px 1px;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-reservas .hambur3 img {
+    width: 300px;
+    height: 250px;
+    margin: 1px 1px;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-reservas .hambur4 img {
+    width: 300px;
+    height: 300px;
+    margin: 1px 1px;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=estilos.css.map */
