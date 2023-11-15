@@ -11,15 +11,16 @@
         "hamburguesa1   hamburguesa2    hamburguesa3"
         "hamburguesa4   hamburguesa5    hamburguesa6"
         "hamburguesa7   hamburguesa8    hamburguesa9";
+        img{
+            width: 400px;
+            height: 250px;
+            border-radius: 10px;
+            margin: 5px;
+    
+        }
     }
     
-    .contenedor-pedidos img{
-        width: 400px;
-        height: 250px;
-        border-radius: 10px;
-        margin: 5px;
-
-    }
+    
     
     .mas-pedidos{
         margin-top: 20px;
@@ -33,22 +34,14 @@
         margin-left: 10px;
     }
 
-    .link-logo img{
-        width: 50px;
-        height: 50px;
-    }
+    .link-logo{
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    } 
 
-    .menu li{
-        font-size: 25px;
-        margin: 0px 10px;
-        align-items: center;
-        justify-content: center;
-        place-items: center;
-    }
-
-    ul a{
-        margin: 10px auto;
-    }
+    
 
     .text-pedido{
         color: white;
